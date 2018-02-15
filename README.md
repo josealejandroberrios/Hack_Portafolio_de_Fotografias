@@ -24,14 +24,14 @@ Las siguientes secciones deben estar disponibles en todas las vistas:
           * Nombre del fotógrafo
           * Colaboradores (si existen).
       * **¿Acerca de mi?** Se mostrará información sobre el fotógrafo como:
-        * Pequeña biografía
-        * Trabajos destacados
+          * Pequeña biografía
+          * Trabajos destacados
       * **Contacto:** Posee informacion para contactar al fotografo (numero telefónico y correo) y un formulario para comunicarse con el mismo a través de la página, las campos del formulario son los siguientes:
-        * Nombre completo
-        * Correo
-        * Número telefónico
-        * Asunto (título)
-        * Mensaje 
+          * Nombre completo
+          * Correo
+          * Número telefónico
+          * Asunto (título)
+          * Mensaje 
         
         **Nota: Este formulario no es funcional** 
   * **Cuerpo:** Acá se muestran las diferentes secciones con su contenido: Galería, Contactame, detalles de la foto o Acerca de mi
