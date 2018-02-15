@@ -1,0 +1,536 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 780px;
+    background: none;
+    margin: 0 !important;
+    border: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+    display: block;
+}
+
+
+
+/* -----------------------------------------------------------
+--------------------------------------------------------------
+--------------------------------------------------------------
+                        Sider Bar
+-------------------------------------------------------------- 
+--------------------------------------------------------------
+-------------------------------------------------------------- */
+
+header {
+    position: fixed;
+    width: 440px;
+    height: 780px;
+    background: none;
+    top: 0px;
+    z-index: 100;
+    color: #1A1A1A;
+    font-family: 'Arial Narrow';
+    background: none;
+}
+
+header h1 {
+    border: 0;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 21px;
+    margin-bottom: -11px;
+    text-align: center;
+    font-weight: normal; 
+}
+
+header p {
+    font-size: 1.5rem;
+    -webkit-margin-start: 143px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #FF9900;
+    font-size: 29px; 
+}
+
+header h2 {
+    font-size: 14px;
+    font-weight: normal;
+    -webkit-margin-start: 143px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.Cover figure {
+    display: block;
+    position: absolute;
+    width: 440px;
+    height: 680px;
+    top: -15px;
+    left: -40px;
+    background: none;
+    z-index: -1;
+}
+
+.Cover figure img {
+    filter: opacity(20%);
+    width: 440px;
+    height: 680px;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav ul li {
+    list-style: none;
+    line-height: 37px;
+    height: 34px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 14px;
+    font-weight: normal; 
+    -webkit-margin-start: 143px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+nav ul a img{
+    position: relative;
+    width: 20px;
+    top: 5px;
+    left: 170px;
+}
+
+nav ul li .ColorChanged {
+    color: #FF9900;
+}
+
+nav ul ul {
+    display: none;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+.SubMenu {
+    width: 220px;
+    height: 60px;
+    position: absolute;
+    font-weight: bolder;
+    background: none;
+    left: 415px;
+    top: 240px;
+    z-index: -1;
+}
+
+.SubMenu li {
+    position: relative;
+    width: 220px;
+    height: 30px;
+    margin: 0;
+    background: #202020;
+    border-bottom: #FFF solid 1px;
+}
+.SubMenu li a {
+    position: relative;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    left: 10px; 
+    top: -4px;
+}
+
+.SubMenu li a:hover {
+    color: #FF9900;
+}
+
+
+/* -----------------------------------------------------------
+--------------------------------------------------------------
+--------------------------------------------------------------
+               Contenedor de Todas las Secciones 
+-------------------------------------------------------------- 
+--------------------------------------------------------------
+-------------------------------------------------------------- */
+
+.MainSelection {
+    position: relative;
+    width: 910px;
+    height: 1008px;
+    top: 0px;
+    left: 440px;
+    background: #FFF;
+}
+
+
+/* -----------------------------------------------------------
+--------------------------------------------------------------
+--------------------------------------------------------------
+                        Seccion Galeria 
+-------------------------------------------------------------- 
+--------------------------------------------------------------
+-------------------------------------------------------------- */
+
+.Gallery{ 
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: none;
+}
+.Gallery > * {
+    position: relative;
+    display: inline-block;
+    width: 423px;
+    height: 157px;
+    background: none;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    margin-top: 2px
+}
+
+.MainSelection .Gallery h3{
+    display: block;
+    position: relative;
+    color: #FFF;
+    z-index: 1;
+    margin: 0;
+    top: 15px;
+    left: 25px;
+    font-family: 'Arial Black';
+    font-size: 20px;
+}
+
+.MainSelection .Gallery .Date{
+    font-size: 1em;
+    color: #FF9900;
+    font-family: 'Arial Rounded MT B';
+    font-size: 12px;
+    border-bottom: 0px;
+}
+
+.MainSelection .Gallery figure {
+    display: inline-block;
+    position: absolute;
+    width: 423px;
+    height: 157px;
+    top: -14px;
+    left: -40px;
+    background: none;
+}
+
+.MainSelection .Gallery figure img {
+    width: 423px;
+    height: 157px;
+    filter: brightness(60%);
+}
+
+.Corner {
+    position: absolute;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    background: none;
+}
+
+.Corner img {
+    position: relative;
+    width: 50px;
+    height: 52px; 
+}
+
+
+
+
+
+
+.Paged {
+    width: 910px;
+    height: 33px;
+    background: #FFF;
+    position: absolute;
+    top: 973px;
+    left: 0px;
+    font-family: 'Arial Narrow';
+    font-size: 14px;
+    text-align: center;
+}
+
+.Paged .Pag {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    top: 7px;
+    left: 30px;
+    background: none;
+    
+}
+
+.Paged .Anterior {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    bottom: 13px;
+    left: 750px;
+    background: none;
+}
+
+
+/* -----------------------------------------------------------
+--------------------------------------------------------------
+--------------------------------------------------------------
+                        Seccion Acerca de Mi 
+-------------------------------------------------------------- 
+--------------------------------------------------------------
+-------------------------------------------------------------- */
+
+.AboutMe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: none;
+}
+ 
+.AboutMe > * {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial Narrow';
+    background: none;
+
+}
+
+.AboutMe div h2 {
+    position: absolute;
+    width: 780px;
+    top: -15px;
+    height: 50px;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 5px; 
+    color: #FF9900;   
+    text-decoration: underline #1A1A1A;
+    background: none;
+    margin: 40px;
+}
+
+.AboutMe figure img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 180px;
+    left: 30px;
+    border-radius: 30px;
+    
+}
+
+.AboutMe .PieImagen{
+    font-size: 18px;
+}
+
+.AboutMe .Parrafo {
+    position: relative;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.AboutMe .Parrafo span{
+    color: #FF9900;
+    font-size: 35px;
+}
+
+.AboutMe p:nth-child(1){
+    position: relative;
+    left: 480px;
+    top: 340px;
+}
+
+.AboutMe p:nth-child(2){
+    left: 350px;
+    top: 40px; 
+}
+
+.AboutMe p:nth-child(3){
+    position: relative;
+    font-size: 20px;
+    top: 180px;
+    left: 20px;
+}
+
+.AboutMe p:nth-child(4){
+    position: relative;
+    font-size: 20px;
+    top: 210px;
+    left: 110px;
+}
+
+
+
+/* -----------------------------------------------------------
+--------------------------------------------------------------
+--------------------------------------------------------------
+                        Seccion Contacto 
+-------------------------------------------------------------- 
+--------------------------------------------------------------
+-------------------------------------------------------------- */
+
+.Contact {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+    font-family: 'Arial Rounded MT B';
+    font-size: 12px;
+    color: #798e94;
+}
+
+.Contact div h2 {
+    position: relative;
+    width: 780px;
+    height: 70px;
+    top: -20px;
+    left: -50px;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: 5px; 
+    color: #FF9900;   
+    text-decoration: underline #1A1A1A;
+    background: none;
+    margin: 40px;
+    font-family: 'Arial Narrow';
+}
+
+.Contacto {
+    position: relative;
+    width: 40%;
+    top: -50px;
+    left: 150px;
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+}
+
+.Contacto label {
+    display: block;
+    font-weight: bold;
+}
+
+.Contacto div {
+    margin-bottom: 15px;
+}
+
+.Contacto input[type="text"], .Contacto textarea{
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow: 0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+
+.Contacto input[type="text"]:focus, .Contacto textarea:focus{
+    outline: none;
+    box-shadow: 0 0 0 3px #dde9ec;
+}
+
+.Contacto input[type="submit"] {
+    border: 1px solid #CED5D7;
+    box-shadow: 0 0 0 3px #EEF5F7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+
+    background: #e4f1f6;
+    background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%); */
+}
+
+.Contacto input[type="submit"]:hover {
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+} */
+
+.Contacto input[type="submit"]:active {
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+}
+
+
+
+/* -----------------------------------------------------------
+--------------------------------------------------------------
+--------------------------------------------------------------
+                   Pie de Pagina (Fotter) 
+-------------------------------------------------------------- 
+--------------------------------------------------------------
+-------------------------------------------------------------- */
+
+
+footer {
+    width: 910px;
+    height: 131px;
+ 	background: #202020;
+ 	color: #5F5F5F;
+ 	text-align: center;
+    position: relative; 
+    left: 440px;
+}
+
+footer .rrss {
+	margin-top: 0px;
+	width: 100%;
+    height: 40px;
+}
+
+footer .rrss a {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+footer .rrss a:before {
+	color: #5F5F5F;
+	text-decoration: none;
+	position: absolute;
+	font-size: 1em;
+	top: 40px;
+	left: 5px;
+	font-family: 'icomoon';
+}
+
+footer .rrss a:nth-child(1):before {
+    content: "\ea90";
+}
+
+footer .rrss a:nth-child(2):before {
+	content: "\ea96";
+}
+
+footer .rrss a:nth-child(3):before {
+	content: "\eaa7";
+}
+
+footer .rrss a:nth-child(4):before {
+	content: "\ea92";
+}
+
+footer p{
+    position: relative;
+    top: 10px;
+    font-family: 'Arial Narrow';
+	font-size: 1em;
+}
+
+
